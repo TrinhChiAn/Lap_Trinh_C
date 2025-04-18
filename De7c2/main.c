@@ -1,4 +1,3 @@
-
 /*
 Câu 2: Viết chương trình cộng hai ma trận C¬mxn = Amxn + Bmxn. Trong đó dữ liệu về  m,n và hai ma trận A, B được lưu trữ trên tệp 'MA_TRAN.C' theo dạng sau:
 Dòng đầu tiên ghi: m n; dòng tiếp theo ghi: Ma trận A; các dòng tiếp theo là các hàng của ma trận A; dòng tiếp theo ghi: Ma trận B; các dòng tiếp theo là các hàng của ma trận B. Chương trình được tổ chức thành các công việc và các chương trình con sau:

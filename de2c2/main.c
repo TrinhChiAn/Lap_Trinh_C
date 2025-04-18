@@ -1,6 +1,24 @@
+/*
+Viết chương trình tạo ra một danh tách liên kết thuận để quân lý đanh
+sách điểm thi THPT khối A01. Cầu trúc gồm các thành phẩn so bao_danh, ho ten,
+diem_toan, diem_ly, diem_tieng_anh, tong diem. Chương trình được tổ chức thành các chương trình con sau:
+  1) Tạo danh sách diem thi 
+  2) Hiển thị danh sách ra mản hình theo dạng:
+
+       DANH SACH DIEM THI THPT
+
+      STT    SBD     Ho ten     Diem Toan     Diem Ly     Diem TA      Tong
+  3) Sắp xếp danh sách điểm thi theo từmg điểm và theo tổng điểm (có danh sách để
+ lựa chọn) 
+
+Hàm main() hiển thị menu để chọn các chức năng bằng cách nhập số tương ứng như sau:
+      1. Tao danh sach thi sinh
+      2. Hien thi danh sach thi sinh
+      3. Sap xep diem thi
+      4. Ket thuc
+*/
+
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 typedef struct ThiSinh
 {

@@ -1,3 +1,24 @@
+/*
+Viết chương trình tạo ra một danh sách liên kết thuận để quản lý danh
+sách nhân viên. Cấu trúc nhân viên gồm các thành phần: ID, ho_ten, chuc_vu,
+so dien thoai. Chương trình được tổ chức thành các chương trình con sau:
+   1) Tạo danh sách nhân viên
+   2) Hiển thị danh sách ra màn hình theo dạng:
+
+        DANH SACH NHAN VIEN
+
+       ID      Ho ten       Chuc vu      So DT
+      ………..
+
+  3) Xóa một nhân viên nào đó (có ID nhập vào từ bàn phím) 
+
+Hàm main() hiển thị menu để chọn các chức năng bằng cách nhập số tương ứng như sau:
+      1. Tao danh sach nhan vien
+      2. Hien thi danh sach nhan vien
+      3. Xoa nhan vien
+      4. Ket thuc
+*/
+
 #include <stdio.h>
 
 typedef struct NhanVien {
@@ -110,7 +131,7 @@ int main() {
 
     do {
         printf("\n========== MENU ==========\n");
-        printf("1. Th�m nhan vien\n");
+        printf("1. Thêm nhan vien\n");
         printf("2. Hien thi danh sach nhan vien\n");
         printf("3. Xoa nhan vien\n");
         printf("4. Ket thuc\n");
