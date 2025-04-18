@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1744989281 source:d:\laptrinhc\de10c2\main.c
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1744991426 source:d:\laptrinhc\de2c2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
